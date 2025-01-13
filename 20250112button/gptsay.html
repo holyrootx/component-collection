@@ -1,0 +1,50 @@
+<!-- Prism.js 스타일 -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+
+<!-- Prism.js + Clipboard.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-javascript.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.11/clipboard.min.js"></script>
+
+<!-- 코드 블록 -->
+<div class="code-container">
+  <button class="copy-btn" data-clipboard-target="#code">📋 Copy</button>
+  <pre><code id="code" class="language-javascript">console.log("Hello, World!");</code></pre>
+</div>
+<!-- 이렇게 <pre> 안에 <code> 태그를 넣고, class="language-언어" 만 설정하면:
+
+  Prism.js
+  
+  prism.js가 자동으로 언어 감지 → 색상 적용
+  class="language-javascript" (JS 코드임을 표시)
+  Highlight.js
+  
+  언어 클래스 없어도 자동 감지 가능 (<pre><code>만 있어도 됨) -->
+<!-- 복사 버튼 기능 -->
+<script>
+  new ClipboardJS('.copy-btn'); // 복사 기능 활성화
+</script>
+
+<style>
+  /* 코드 컨테이너 스타일 */
+  .code-container {
+    position: relative;
+    background: #1e1e1e; /* VS Code 스타일 */
+    padding: 15px;
+    border-radius: 5px;
+  }
+
+  /* 복사 버튼 스타일 */
+  .copy-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #007acc;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+</style>
