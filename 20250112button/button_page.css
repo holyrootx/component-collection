@@ -211,29 +211,6 @@ button{
   margin: 0 auto;
   text-align: center;
 }
-.nav-item-container-logo{
-  display: inline-block;
-  float: left;
-  /* inline-block is ignored due to the float. 
-  If 'float' has a value other than 'none',
-   the box is floated and 'display' is treated 
-   as 'block'css(propertyIgnoredDueToDisplay) */
-}
-.nav-item-logo {
-  display: inline-block;
-  padding: 20px 20px;
-  font-size: 24px;
-  font-weight: 500;
-  border-radius: 4px;
-  width: 120px;
-}
-.nav-item-logo:hover {
-  color: var(--blue-0);
-  cursor: pointer;
-}
-.nav-item-logo:active {
-  color: var(--blue-3);
-}
 
 .nav-item-container{
   display: inline-block;
@@ -252,7 +229,6 @@ button{
 }
 .nav-item:focus  {
   background-color: var(--black-5);
-  
 }
 .nav-item:active {
   color: var(--white-5);
