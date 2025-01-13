@@ -219,21 +219,6 @@ button{
    the box is floated and 'display' is treated 
    as 'block'css(propertyIgnoredDueToDisplay) */
 }
-.nav-item-logo {
-  display: inline-block;
-  padding: 20px 20px;
-  font-size: 24px;
-  font-weight: 500;
-  border-radius: 4px;
-  width: 120px;
-}
-.nav-item-logo:hover {
-  color: var(--blue-0);
-  cursor: pointer;
-}
-.nav-item-logo:active {
-  color: var(--blue-3);
-}
 
 .nav-item-container{
   display: inline-block;
@@ -241,8 +226,8 @@ button{
 .nav-item{
   display: inline-block;
   width: 120px;
-  padding: 20px 20px;
-  font-size: 24px;
+  padding: 12px 14px;
+  font-size: 16px;
   font-weight: 500;
   border-radius: 4px;
   color: var(--white-5);
