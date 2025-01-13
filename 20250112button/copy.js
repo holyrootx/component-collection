@@ -1,52 +1,36 @@
 'use strict';
 
-// select()
 let copyBtns = document.querySelectorAll(".copy-btn");
 
 copyBtns.forEach((copyBtn,index) => {
     copyBtn.addEventListener("click",(e)=>{
-        const clickedContent = e.target.closest(".content-container");
-        let copiedCode = clickedContent.querySelector("code");
-
-        const trans = (text) =>{
-            // text.replace("&lt", "W3Schools");
-            // console.log(text.replaceAll("&lt;", "<").replaceAll("&gt;",">"))
-            return text.replaceAll("&lt;", "<").replaceAll("&gt;",">");
-            
-        }
-        navigator.clipboard.writeText(trans(copiedCode.innerHTML));
+        const clickedClipboard = e.target.closest(".content-container");
         
-        // 3. insertBefore()로 버튼 위에 메시지 삽입
-    
-        let clipboard = clickedContent.querySelector(".clipboard");
-        let clipboardCheck = clickedContent.querySelector(".clipboard-check");
-        let copied = clickedContent.querySelector(".copied");
+        let btnContainer = clickedClipboard.querySelector(".button-container");
+        let copiedText = "";
+        Array.from(btnContainer.children).forEach((btn,BtnIndex) => {
+            // <,> => &lt;, &gt; 변경해주어야 textEditor에 적용이되어서 변경해준 Line입니다.
+            copiedText += btn.outerHTML + "\n";
+        });
 
-        console.log(clipboard);
-        console.log(clipboardCheck);
+        // 복사 기능
+        navigator.clipboard.writeText(copiedText);
+        
+        // 👀👀👀 UI 요소s select 및 style 변경
+        let clipboard = clickedClipboard.querySelector(".clipboard");
+        let clipboardCheck = clickedClipboard.querySelector(".clipboard-check");
+        let copied = clickedClipboard.querySelector(".copied");
+
         clipboard.style.display = "none";
         clipboardCheck.style.display = "inline-block";
         copied.style.display = "inline";
 
-
         setTimeout(() => {
-            // message.remove(); // 메시지 삭제
-
+            // 2초 후 기존 상태 복구
             clipboard.style.display = "inline-block";
             clipboardCheck.style.display = "none";
             copied.style.display = "none";
         }, 2000);
-        
-        
-
-
-        // console.log(copyBtn);
-        
-
-        // copiedCode.select(); // 텍스트 선택
-        // console.log(copiedCode);
-        // navigator.clipboard.writeText(copiedCode.innerHTML);
-
 
         
 
