@@ -169,7 +169,6 @@ h1 {
 }
 h2{  
   text-align: center;
-  color: rgb(130, 130, 110); /* 82,82,6E*/
   color: var(--white-5);
   font-weight: 600;
   font-size: 32px;
@@ -190,8 +189,6 @@ i {
 
 /*  상단부 관련 클래스 선택자사용해서 스타일 지정한 것 모음 🔻🔻🔻*/
 .header-container{
-  background-color: var(--black-9);
-  /* background: linear-gradient(to right, #333, #000); */
   background-color: var(--white-0);
   color: var(--black-2);
 }
@@ -200,10 +197,6 @@ i {
 }
 
 .nav-container{
-  background-color: var(--white-2);
-  /* background-color: #222; */
-  
-  background-color: #000000;
   background-color: var(--black-bg-content);
 }
 .nav-bar {
@@ -213,14 +206,12 @@ i {
 }
 .nav-item-container{
   display: inline-block;
-  /* overflow: hidden; */
-  
 }
 .nav-item{
   display: inline-block;
   width: 120px;
-  padding: 20px 20px;
-  font-size: 24px;
+  padding: 12px 14px;
+  font-size: 16px;
   font-weight: 500;
   border-radius: 4px;
   color: var(--white-5);
@@ -299,7 +290,7 @@ i {
   display: inline-block;
   margin: 8px;
 }
-.button-container{
+.element-container{
   
 }
 /*  main Content 관련 클래스 선택자 스타일🔺🔺🔺*/

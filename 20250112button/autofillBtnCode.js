@@ -1,5 +1,5 @@
 // 버튼이 담겨져있는 모든 컨테이너를 배열로 반환 받습니다.
-let btnContainers = document.querySelectorAll(".button-container");
+let btnContainers = document.querySelectorAll(".element-container");
 
 btnContainers.forEach((btnContainer,index)=>{
     
