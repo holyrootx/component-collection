@@ -228,6 +228,10 @@ button{
   color: var(--white-5);
   background-color: var(--black-0);
 }
+.nav-item-menu-container {
+  display: none;
+}
+
 /*  상단부 관련 클래스 선택자사용해서 스타일 지정한 것 모음 🔺🔺🔺*/
 
 /*  main Content 관련 클래스 선택자 스타일🔻🔻🔻*/
@@ -940,3 +944,35 @@ code{
 /*  🔻🔻🔻*/
 
 /*  🔺🔺🔺*/
+
+@media screen and (max-width: 765px){
+  .nav-bar{
+    margin: 0;
+    width: 100%;
+    padding: 0;
+  }
+
+  .nav-item-container {
+    display: none;
+    width: 100%;
+  }
+  .nav-item-menu-container{
+    display: flex;
+    flex-direction: row-reverse
+  }
+  .nav-item{
+    display: block;
+    width: 100%;
+  }
+  .nav-menu{
+    border-radius: 8px;
+  }
+  
+  .nav-menu:hover{
+    background-color: var(--black-5);
+  }
+  .nav-item-container.active{
+    display: block;
+  }
+
+}
