@@ -253,7 +253,9 @@ button{
 }
 .description {
   color: var(--white-0);
+  
 }
+
 .content-wrapper{
   box-sizing: border-box;
   padding: 8px;
@@ -319,7 +321,7 @@ button{
 }
 .code{
   margin-left: 16px;
-  font-size: 12px;
+  font-size: 10px;
   /* white-space : pre-wrap;
   연속 공백 유지. 줄 바꿈은 개행 문자와 <br> 요소에서 일어나며,
  한 줄이 너무 길어서 넘칠 경우 자동으로 줄을 바꿉니다. 
@@ -332,6 +334,10 @@ button{
   max-width: 100%;
   overflow-x: auto;
 }
+.code span{
+  font-size: 10px;
+}
+
 code{
   
 }
@@ -339,7 +345,9 @@ code{
   display: inline-block;
   margin: 8px;
 }
-
+.emphasis {
+  color: var(--blue-0);
+}
 .element-container{
   padding: 24px 0;
   margin: 0 8px;
@@ -778,7 +786,6 @@ code{
   animation-duration: 0.4s;
 
 }
-
 /* 푸딩처럼 찰랑찰랑 🔺🔺🔺*/
 
 /* 버튼 배경색이 밖에서부터 안으로 채워지는 느낌 표현   🔻🔻🔻*/
@@ -846,106 +853,7 @@ code{
 }
 /* 버튼 배경색이 밖에서부터 안으로 채워지는 느낌 표현   🔺🔺🔺*/
 
-/* 상호 작용 펄스 심장박동 효과 🔻🔻🔻*/
-@keyframes pulsuate-red-interaction {
-  from {
-    /* box-shadow: 0 0 0 0 var(--red-5); */
-    text-shadow: 0 0 0 var(--red-5);
-  }
-
-}
-@keyframes pulsuate-orange-interaction {
-  from {
-    text-shadow: 0 0 0 var(--orange-5);
-  }
-}
-@keyframes pulsuate-yellow-interaction {
-  from {
-    text-shadow: 0 0 0 var(--yellow-5);
-  }
-}
-@keyframes pulsuate-green-interaction {
-  from {
-    text-shadow: 0 0 0 var(--green-5);
-  }
-}
-@keyframes pulsuate-blue-interaction {
-  from {
-    text-shadow: 0 0 0 var(--blue-5);
-  }
-}
-@keyframes pulsuate-navy-interaction {
-  from {
-    text-shadow: 0 0 0 var(--navy-5);
-  }
-}
-@keyframes pulsuate-purple-interaction {
-  from {
-    text-shadow: 0 0 0 var(--purple-5);
-  }
-}
-
-.red-pulse-interaction {
-  /* 기본 스타일이 여기에 추가될 수 있음 */
-}
-.red-pulse-interaction:hover {
-  
-  /* box-shadow: 0 0 0 16px transparent; */
-  /* offset-x | offset-y | blur-radius | color */
-  text-shadow: 0px 0px 32px transparent;
-
-  animation: pulsuate-red-interaction 1s;
-}
-.red-pulse-interaction:active {
-  
-}
-
-.orange-pulse-interaction {
-  /* 기본 스타일이 여기에 추가될 수 있음 */
-}
-.orange-pulse-interaction:hover {
-  text-shadow: 0px 0px 32px transparent;
-  animation: pulsuate-orange-interaction 1s;
-}
-.yellow-pulse {
-  /* 기본 스타일이 여기에 추가될 수 있음 */
-}
-.yellow-pulse-interaction:hover {
-  text-shadow: 0px 0px 32px transparent;
-  animation: pulsuate-yellow-interaction 1s;
-}
-.green-pulse {
-  /* 기본 스타일이 여기에 추가될 수 있음 */
-}
-.green-pulse-interaction:hover {
-  text-shadow: 0px 0px 32px transparent;
-  animation: pulsuate-green-interaction 1s;
-}
-.blue-pulse {
-  /* 기본 스타일이 여기에 추가될 수 있음 */
-}
-.blue-pulse-interaction:hover {
-  text-shadow: 0px 0px 32px transparent;
-  animation: pulsuate-blue-interaction 1s;
-}
-.navy-pulse {
-  /* 기본 스타일이 여기에 추가될 수 있음 */
-}
-.navy-pulse-interaction:hover {
-  text-shadow: 0px 0px 32px transparent;
-  animation: pulsuate-navy-interaction 1s;
-}
-.purple-pulse {
-  /* 기본 스타일이 여기에 추가될 수 있음 */
-}
-.purple-pulse-interaction:hover {
-  text-shadow: 0px 0px 32px transparent;
-  animation: pulsuate-purple-interaction 1s;
-}
-/* 상호 작용 펄스 심장박동 효과  🔺🔺🔺*/
-
 /*  🔻🔻🔻*/
-
 /*  🔺🔺🔺*/
 
 @media screen and (max-width: 765px){
@@ -978,4 +886,43 @@ code{
     display: block;
   }
 
+}
+
+@media screen and (max-width: 662px){
+/* Footer 재사용 가능성 ⬆⬆  🔻🔻🔻*/
+.container{
+  width: 90%;
+  margin: 20px auto;
+}
+.select-code{
+  font-size: 16px
+}
+.copy-btn-design{
+  font-size: 16px;
+}
+.copied{
+  font-size: 16px;
+}
+.code-container{
+  font-size: 8px;
+}
+.code span{
+  font-size: 8px;
+}
+.code{
+  font-size: 8px;
+}
+
+footer{
+  width: 90%;
+  margin: 0 auto;
+  /* margin: 0; */
+ }
+ .footer-text{
+   font-size: 10px;
+ }
+ .social-media{
+   font-size: 16px;
+ }
+/* Footer 재사용 가능성 ⬆⬆  🔺🔺🔺*/
 }

@@ -251,6 +251,10 @@ button{
   border-radius: 16px;
   background-color: #272829; /*2안*/ 
 }
+.description {
+  color: var(--white-0);
+  
+}
 .content-wrapper{
   box-sizing: border-box;
   padding: 8px;
@@ -316,7 +320,7 @@ button{
 }
 .code{
   margin-left: 16px;
-  font-size: 12px;
+  font-size: 10px;
   /* white-space : pre-wrap;
   연속 공백 유지. 줄 바꿈은 개행 문자와 <br> 요소에서 일어나며,
  한 줄이 너무 길어서 넘칠 경우 자동으로 줄을 바꿉니다. 
@@ -329,6 +333,10 @@ button{
   max-width: 100%;
   overflow-x: auto;
 }
+.code span{
+  font-size: 10px;
+}
+
 code{
   
 }
@@ -336,7 +344,9 @@ code{
   display: inline-block;
   margin: 8px;
 }
-
+.emphasis {
+  color: var(--blue-0);
+}
 .element-container{
   padding: 24px 0;
   margin: 0 8px;
@@ -976,3 +986,41 @@ code{
   }
 
 }
+@media screen and (max-width: 662px){
+  /* Footer 재사용 가능성 ⬆⬆  🔻🔻🔻*/
+  .container{
+    width: 90%;
+    margin: 20px auto;
+  }
+  .select-code{
+    font-size: 16px
+  }
+  .copy-btn-design{
+    font-size: 16px;
+  }
+  .copied{
+    font-size: 16px;
+  }
+  .code-container{
+    font-size: 8px;
+  }
+  .code span{
+    font-size: 8px;
+  }
+  .code{
+    font-size: 8px;
+  }
+  
+  footer{
+    width: 90%;
+    margin: 0 auto;
+    /* margin: 0; */
+   }
+   .footer-text{
+     font-size: 10px;
+   }
+   .social-media{
+     font-size: 16px;
+   }
+  /* Footer 재사용 가능성 ⬆⬆  🔺🔺🔺*/
+  }

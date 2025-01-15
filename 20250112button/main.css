@@ -322,7 +322,11 @@ i {
 .menual-container{
   text-align: left;
 }
-.menual-head {
+.menual-head{
+  padding-bottom: 16px;
+}
+
+.menual-subtitle {
   margin-bottom: 6px;
   margin-top: 6px;
 }
@@ -338,7 +342,6 @@ i {
   font-size: 14px;
   margin-top: 6px;
   margin-top: 8px;
-
 }
 .download-button{
   display: inline-block;
@@ -416,7 +419,7 @@ i {
 }
 .code{
   margin-left: 16px;
-  font-size: 12px;
+  font-size: 10px;
   /* white-space : pre-wrap;
   연속 공백 유지. 줄 바꿈은 개행 문자와 <br> 요소에서 일어나며,
  한 줄이 너무 길어서 넘칠 경우 자동으로 줄을 바꿉니다. 
@@ -429,6 +432,10 @@ i {
   max-width: 100%;
   overflow-x: auto;
 }
+.code span{
+  font-size: 10px;
+}
+
 .editor {
   height: 180px;
   margin-right: 16px;
@@ -458,6 +465,7 @@ i {
   font-weight: 500;
   border-radius: 4px;
   color: var(--white-5);
+  background-color: #2d3147;
 }
 .component-link-item:hover{
   background-color: var(--black-5);
@@ -478,7 +486,6 @@ i {
 }
 .emphasis {
   color: var(--blue-0);
-  
 }
 .taeguk-text {
   font-weight: bold;
@@ -489,8 +496,8 @@ i {
 .go-to-button{
   display: inline-block;
   width: 100%;
+  margin-top: 20px;
   background-color: var(--blue-0);
-  
   border-bottom-left-radius: 16px;
   border-bottom-right-radius: 16px;
 }
@@ -499,7 +506,7 @@ i {
   width: 100%;
   font-size: 24px;
   font-weight: 800;
-  padding: 18px 0px;
+  padding: 12px 0px;
   border-bottom-left-radius: 16px;
   border-bottom-right-radius: 16px;
 }
@@ -1110,33 +1117,23 @@ i {
 }
 /* 상호 작용 펄스 심장박동 효과  🔺🔺🔺*/
 
-/*  🔻🔻🔻*/
-
-/*  🔺🔺🔺*/
-/* .active {
-  display: block;
-} */
-@media screen and (max-width: 662px){
-  .container{
-    width: 90%;
-    margin: 20px auto;
-  }
-  .intro-container{
+@media screen and (max-width: 420px){
+  .component-link-container{
     display: block;
   }
-  .intro-wrapper{
-    width: calc(100% - 40px);
-    margin: 12px 8px;
-    padding: 12px;
+  .component-link-item-container{
+    width: 100%;
     display: block;
+    margin-top: 1px;
+    margin-bottom: 1px;
   }
-  footer{
-    width: 90%;
-    margin: 0 auto;
-    /* margin: 0; */
+  .component-link-item{
+    display: block;
+    
   }
 }
 
+/* navBar HamburgurMenu 🔻🔻🔻*/
 @media screen and (max-width: 765px){
   .nav-bar{
     margin: 0;
@@ -1166,5 +1163,91 @@ i {
   .nav-item-container.active{
     display: block;
   }
-
+  .go-to-button-text{
+    font-size: 20px;
+    padding: 10px 0;
+  }
 }
+
+/* navBar HamburgurMenu 🔺🔺🔺*/
+@media screen and (max-width: 662px){
+  .container{
+    width: 90%;
+    margin: 20px auto;
+  }
+  .intro-container{
+    display: block;
+  }
+  .intro-wrapper{
+    width: calc(100% - 40px);
+    margin: 12px 8px;
+    padding: 12px;
+    display: block;
+  }
+  h1 {
+    font-size: 28px;
+  }
+  .sub-head{
+    font-size: 16px;
+  }
+  .sub-p{
+    font-size: 12px;
+  }
+  .go-to-button-text{
+    font-size: 16px;
+    padding: 8px 0;
+  }
+  .menual-subtitle{
+    font-size: 20px;
+  }
+  .description{
+    font-size: 10px;
+  }
+  .download-button{
+    padding: 8px 0;
+    font-size: 12px;
+  }
+  .select-code{
+    font-size: 12px;
+  }
+  .code span{
+    font-size: 8px;
+  }
+  .code{
+    font-size: 8px;
+  }
+  .copy-btn-design{
+    font-size: 12px;
+  }
+  .copied{
+    font-size: 12px;
+  }
+  .coming-soon{
+    font-size: 20px;
+  }
+  .teaser-message{
+    font-size: 16px;
+  }
+ /* Footer 재사용 가능성 ⬆⬆  🔻🔻🔻*/
+
+  footer{
+   width: 90%;
+   margin: 0 auto;
+   /* margin: 0; */
+  }
+  .footer-text{
+    font-size: 10px;
+  }
+  .social-media{
+    font-size: 16px;
+  }
+ /* Footer 재사용 가능성 ⬆⬆  🔺🔺🔺*/
+}
+
+/*  🔻🔻🔻*/
+
+/*  🔺🔺🔺*/
+
+/*  🔻🔻🔻*/
+
+/*  🔺🔺🔺*/
