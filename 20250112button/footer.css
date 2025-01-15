@@ -165,7 +165,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 60px 0;
+  padding: 30px 0;
 
 }
 .legal-link-container{
@@ -179,6 +179,7 @@ footer {
 }
 .footer-text {
   font-weight: 200;
+  font-size: 12px;
 }
 
 .legal-link:hover{
@@ -193,7 +194,7 @@ footer {
 .social-media {
   padding: 8px;
   margin: 0;
-  font-size: 24px;
+  font-size: 20px;
   border-radius: 8px;
 }
 .social-media:hover {
