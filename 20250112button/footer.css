@@ -236,4 +236,34 @@ footer {
     padding: 15px 0;
   }
 }
+@media screen and (max-width: 340px){
+  .footer-flex-container{
+    display: block;
+    padding: 4px 0;
+  }
+  .legal-link-container{
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .legal-link-text-wrapper{
+    display: block;
+    width: 100%;
+    margin: 0;
+    
+  }
+  .text-spacing:nth-child(n+1) {
+    padding-right: 0;
+  }
+  .footer-text{
+    display: block;
+    width: 100%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+  .social-media-container{
+    text-align: center;
+  }
+}
+
 /* footer 관련 🔺🔺🔺*/
