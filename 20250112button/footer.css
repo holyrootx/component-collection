@@ -205,4 +205,35 @@ footer {
   color: var(--black-9);
 }
 
+
+
+@media screen and (max-width: 662px){
+  footer{
+    width: 90%;
+    margin: 0 auto;
+    /* margin: 0; */
+   }
+   .footer-text{
+     font-size: 10px;
+   }
+   .social-media{
+     font-size: 16px;
+   }
+}
+
+@media screen and (max-width: 495px){
+  .footer-flex-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .legal-link-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-flex-container{
+    padding: 15px 0;
+  }
+}
 /* footer 관련 🔺🔺🔺*/

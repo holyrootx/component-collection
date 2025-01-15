@@ -1237,25 +1237,13 @@ i {
   .teaser-message{
     font-size: 16px;
   }
- /* Footer 재사용 가능성 ⬆⬆  🔻🔻🔻*/
-
-  footer{
-   width: 90%;
-   margin: 0 auto;
-   /* margin: 0; */
-  }
-  .footer-text{
-    font-size: 10px;
-  }
-  .social-media{
-    font-size: 16px;
-  }
- /* Footer 재사용 가능성 ⬆⬆  🔺🔺🔺*/
 }
+
 
 /*  🔻🔻🔻*/
 
 /*  🔺🔺🔺*/
+
 
 /*  🔻🔻🔻*/
 

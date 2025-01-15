@@ -393,7 +393,6 @@ code{
 }
 
 @media screen and (max-width: 662px){
-  /* Footer 재사용 가능성 ⬆⬆  🔻🔻🔻*/
   .container{
     width: 90%;
     margin: 20px auto;
@@ -416,17 +415,4 @@ code{
   .code{
     font-size: 8px;
   }
-  
-  footer{
-    width: 90%;
-    margin: 0 auto;
-    /* margin: 0; */
-   }
-   .footer-text{
-     font-size: 10px;
-   }
-   .social-media{
-     font-size: 16px;
-   }
-  /* Footer 재사용 가능성 ⬆⬆  🔺🔺🔺*/
-  }
+}
