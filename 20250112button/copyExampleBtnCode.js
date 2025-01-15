@@ -7,7 +7,7 @@ exampleCopyBtn.forEach((copyBtn,index) => {
         const clickedClipboard = e.target.closest(".content-wrapper");
         
         
-        let btnContainer = clickedClipboard.querySelector(".element-container");
+        let btnContainer = clickedClipboard.nextElementSibling;
         let copiedText = "";
         Array.from(btnContainer.children).forEach((btn,BtnIndex) => {
             // <,> => &lt;, &gt; 변경해주어야 textEditor에 적용이되어서 변경해준 Line입니다.

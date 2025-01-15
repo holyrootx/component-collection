@@ -3,7 +3,7 @@ https://prismjs.com/download.html#themes=prism-tomorrow&languages=markup+css+cli
 code[class*=language-],
 pre[class*=language-]{color:#ccc;background:0 0;
     font-family:Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace;
-    font-size:10px;
+    /* font-size:10px; */
     text-align:left;
     /* white-space:pre; */
     word-spacing:normal;

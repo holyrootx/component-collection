@@ -141,15 +141,10 @@
             </div>
         </div>
         <div class="code-container">
-          <pre class="code editor language-html" tabindex="0"><code id="code" class="language-html">&lt;a href="#" class="white-background red-letter red-border mini-padding fill-red-to-in rounded btn">Button&lt;/a&gt;
-&lt;a href="#" class="white-background orange-letter orange-border mini-padding fill-orange-to-in rounded btn"&gt;Button&lt;/a&gt;
-&lt;a href="#" class="white-background yellow-letter yellow-border mini-padding fill-yellow-to-in rounded btn"&gt;Button&lt;/a&gt;
-&lt;a href="#" class="white-background green-letter green-border mini-padding fill-green-to-in rounded btn"&gt;Button&lt;/a&gt;
-&lt;a href="#" class="white-background blue-letter blue-border mini-padding fill-blue-to-in rounded btn"&gt;Button&lt;/a&gt;
-&lt;a href="#" class="white-background navy-letter navy-border mini-padding fill-navy-to-in rounded btn"&gt;Button&lt;/a&gt;
-&lt;a href="#" class="white-background purple-letter purple-border mini-padding fill-purple-to-in rounded btn"&gt;Button&lt;/a&gt;</code>
+          <pre class="code language-html" tabindex="0"><code id="code" class="language-html editor"></code>
           </pre>
-        </div>
+        </div> 
+      </div>
       <div class="element-container">
         <a href="#" class="red-background mini-padding red-shadow-effect rounded btn">Button</a>
         <a href="#" class="orange-background mini-padding orange-shadow-effect rounded btn">Button</a>
@@ -158,7 +153,6 @@
         <a href="#" class="blue-background mini-padding blue-shadow-effect rounded btn">Button</a>
         <a href="#" class="navy-background mini-padding navy-shadow-effect rounded btn">Button</a>
         <a href="#" class="purple-background mini-padding purple-shadow-effect rounded btn">Button</a>
-      </div> 
       </div>
     </div>
     <div class="content">
@@ -200,18 +194,8 @@
 <script src="./prism/prism.js"></script>
 <script src="./copyLinkCss.js"></script>
 <script src="./copyExampleBtnCode.js"></script>
-<script>
-  let navMenuBtn = document.querySelector(".nav-menu");
-  navMenuBtn.addEventListener("click",(e) => {
-    let navItemContainers = document.querySelectorAll(".nav-item-container");
-    navItemContainers.forEach((navItemContainer,index) => {
-      
-      console.log(navItemContainer);
-      navItemContainer.classList.toggle("active");
-    })
-    
-  });
-</script>
+<script src="./hamburgerMenu.js"></script>
+<script src="./autofillMainBtnCode.js"></script>
 </body>
 </html>
 
