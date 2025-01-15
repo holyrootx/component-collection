@@ -1,0 +1,760 @@
+:root {
+    /* var(--red-n) 으로 사용 n은 숫자 */
+    /* --red Color 
+      Text & Background 사용 규칙 
+      
+      disabled  : 3 사용 
+      general   : 5 사용 
+      Heading   : 9 사용 
+    */
+    --red-0       :   #FFCBCB;
+    --red-1       :   #FFB4B4;
+    --red-2       :   #FF9E9E; 
+    --red-3       :   #FF8787; 
+    --red-4       :   #FF7171; 
+    --red-5       :   #fa5a5a;
+    --red-6       :   #FF4444;
+    --red-7       :   #FF2D2D; 
+    --red-8       :   #FF1717; 
+    --red-9       :   #FF0000;
+    
+    /* var(--orange-n) 으로 사용 n은 숫자 */
+    /* --orange Color */
+    --orange-0    :   #FFBF6C;
+    --orange-1    :   #FFBA60;
+    --orange-2    :   #FFB554;
+    --orange-3    :   #FFB048;
+    --orange-4    :   #FFAB3C;
+    --orange-5    :   #FFA530;
+    --orange-6    :   #FFA024;
+    --orange-7    :   #FF9B18;
+    --orange-8    :   #FF960C;
+    --orange-9    :   #FF9100;
+  
+    /* --yellow Color */
+    
+    --yellow-0    :   #E4E4B4;
+    --yellow-1    :   #E7E7A0;
+    --yellow-2    :   #EAEA8C;
+    --yellow-3    :   #EDED78;
+    --yellow-4    :   #F0F064;
+    --yellow-5    :   #F3F350;
+    --yellow-6    :   #F6F63C;
+    --yellow-7    :   #F9F928;
+    --yellow-8    :   #FCFC14;
+    --yellow-9    :   #ffff00;
+  
+    /* --green Color */
+  
+    --green-0     :   #bff5d1;
+    --green-1     :   #b1ebc4;
+    --green-2     :   #aaecc0;
+    --green-3     :   #9fe7b7;
+    --green-4     :   #94e0ad;
+    --green-5     :   #75c8a0;
+    --green-6     :   #69a081;
+    --green-7     :   #619477;
+    --green-8     :   #5b8d71;
+    --green-9     :   #4e725e;
+    
+  
+  
+    
+    /* --blue Color */
+    /* var(--blue-n) 으로 사용 n은 숫자 */
+    --blue-0      :   #A1B8D0;
+    --blue-1      :   #8FAECE;
+    --blue-2      :   #7DA4CD;
+    --blue-3      :   #6B9BCB;
+    --blue-4      :   #5991C9;
+    --blue-5      :   #4887C8;
+    --blue-6      :   #367DC6;
+    --blue-7      :   #2474C4;
+    --blue-8      :   #126AC3;
+    --blue-9      :   #0060C1;
+    
+    --cyan        :   #7fccde;
+  
+    /* --navy Color */
+    /* var(--navy-n) 으로 사용 n은 숫자 */
+  
+    --navy-0      :   #D1E1E8;
+    --navy-1      :   #A8C9D4;
+    --navy-2      :   #A0B3C7;
+    --navy-3      :   #6A7B9A;
+    --navy-4      :   #3A4C7A;
+    --navy-5      :   #3A4C7A;
+    --navy-6      :   #1A2A4D;
+    --navy-7      :   #1C2A48;
+    --navy-8      :   #0D2238;
+    --navy-9      :   #0b0b45;
+  
+    --navy-nav    :   #263343; 
+    /* --purple Color */
+    /* var(--purple-n) 으로 사용 n은 숫자 */
+    --purple-0    :   #FFECFD;
+    --purple-1    :   #F2D3EE;
+    --purple-2    :   #E5BAE0;
+    --purple-3    :   #D8A0D1;
+    --purple-4    :   #CB87C3;
+    --purple-5    :   #BD6EB4;
+    --purple-6    :   #B055A6;
+    --purple-7    :   #A33B97;
+    --purple-8    :   #962289;
+    --purple-9    :   #89097A;
+  
+    /* --white Color */
+    /* var(--white-n) 으로 사용 n은 숫자 */
+    --white-0     :   #ffffff;
+    --white-1     :   #F6F6F6;
+    --white-2     :   #EDEDED;
+    --white-3     :   #E5E5E5;
+    --white-4     :   #DCDCDC;
+    --white-5     :   #D3D3D3;
+    --white-6     :   #CACACA;
+    --white-7     :   #C1C1C1;
+    --white-8     :   #B9B9B9;
+    --white-9     :   #B0B0B0;
+  
+    
+    /* CC => 204 */
+  
+    /* --black Color */
+    /* var(--black-n) 으로 사용 n은 숫자 */
+    --black-0     :   #4F4F4F;
+    --black-1     :   #464646;
+    --black-2     :   #3E3E3E;
+    --black-3     :   #353535;
+    --black-4     :   #2C2C2C;
+    --black-5     :   #232323;
+    --black-6     :   #1A1A1A;
+    --black-7     :   #121212;
+    --black-8     :   #090909;
+    --black-9     :   #000000;
+  
+    /* --gray Color */
+    /* var(--gray-n) 으로 사용 n은 숫자 */  
+    --gray-0      :   #A7A7A7;
+    --gray-1      :   #9E9E9E;
+    --gray-2      :   #959595;
+    --gray-3      :   #8D8D8D;
+    --gray-4      :   #848484;
+    --gray-5      :   #7B7B7B;
+    --gray-6      :   #727272;
+    --gray-7      :   #6A6A6A;
+    --gray-8      :   #616161;
+    --gray-9      :   #585858;
+  
+    /* */
+    --brown-5           :   #463e3e;
+    --black-bg-container:   #1e1e20;
+    --black-bg-content  :   #272829;
+  }
+
+
+
+  /*  main Content 관련 클래스 선택자 스타일🔺🔺🔺*/
+a{
+  text-decoration: none;
+  color: white;
+}
+/* 버튼 사이즈 버튼 비율 관련 🔻🔻🔻*/
+.mini-padding {
+    padding: 8px;
+  }
+  /* 버튼 사이즈 버튼 비율 관련 🔺🔺🔺*/
+  
+  /* font 사이즈 버튼 비율 관련 🔻🔻🔻*/
+  .mini {
+    font-size: 16px;
+  }
+  .middle {
+    font-size: 24px;
+  }
+  .middle-2 {
+    font-size: 32px;
+  }
+  /* font 사이즈 버튼 비율 관련 🔺🔺🔺*/
+  
+  /*  🔻🔻🔻*/
+  /*  🔺🔺🔺*/
+  
+  /*글자색 글씨색 글자 글색 letter  🔻🔻🔻*/
+  .red-letter{
+    color: var(--red-5);
+  }
+  .orange-letter{
+    color: var(--orange-5);
+  }
+  .yellow-letter{
+    color: var(--yellow-5);
+  }
+  .green-letter{
+    color: var(--green-5);
+  }
+  .blue-letter{
+    color: var(--blue-5);
+  }
+  .navy-letter{
+    color: var(--navy-5);
+  }
+  .purple-letter{
+    color: var(--purple-5);
+  }
+  /*글자색 글씨색 글자 글색 letter  🔺🔺🔺*/
+  
+  
+  /* 배경 색상, 배경 색, background  🔻🔻🔻*/
+  .red-background{
+    background-color: var(--red-5);
+  }
+  .orange-background{
+    background-color: var(--orange-5);
+  }
+  .yellow-background{
+    background-color: var(--yellow-5);
+  }
+  .green-background{
+    background-color: var(--green-5);
+  }
+  .blue-background{
+    background-color: var(--blue-5);
+  }
+  .navy-background{
+    background-color: var(--navy-5);
+  }
+  .purple-background{
+    background-color: var(--purple-5);
+  }
+  .white-background{
+    background-color: var(--white-0);
+  }
+  /* 배경 색상, 배경 색, background 🔺🔺🔺*/
+  
+  
+  /* 배경 <-> 글자색 반전 효과  🔻🔻🔻*/
+  .red-color-flip{
+    transition-property: background-color;
+    transition-duration: 0.5s;
+  
+  }
+  .red-color-flip:hover{
+    color: var(--red-5);
+    background-color: white;
+  }
+  
+  .orange-color-flip{
+    transition-property: background-color;
+    transition-duration: 0.5s;
+  
+  }
+  .orange-color-flip:hover{
+    color: var(--orange-5);
+    background-color: white;
+  }
+  
+  .yellow-color-flip{
+    transition-property: background-color;
+    transition-duration: 0.5s;
+  
+  }
+  .yellow-color-flip:hover{
+    color: var(--yellow-5);
+    background-color: white;
+  }
+  
+  .green-color-flip{
+    transition-property: background-color;
+    transition-duration: 0.5s;
+  }
+  .green-color-flip:hover{
+    color: var(--green-5);
+    background-color: white;
+  }
+  
+  .blue-color-flip{
+    transition-property: background-color;
+    transition-duration: 0.5s;
+  
+  }
+  .blue-color-flip:hover{
+    color: var(--blue-5);
+    background-color: white;
+  }
+  
+  .navy-color-flip{
+    transition-property: background-color;
+    transition-duration: 0.5s;
+  
+  }
+  .navy-color-flip:hover{
+    color: var(--navy-5);
+    background-color: white;
+  }
+  
+  .purple-color-flip{
+    transition-property: background-color;
+    transition-duration: 0.5s;
+  }
+  .purple-color-flip:hover{
+    color: var(--purple-5);
+    background-color: white;
+  }
+  .black-color-flip{
+    transition-property: background-color;
+    transition-duration: 0.5s;
+  
+  }
+  .black-color-flip:hover{
+    color: var(--black-5);
+    background-color: white;
+  }
+  /*  배경 <-> 글자색 반전 효과  🔺🔺🔺*/
+  
+  
+  /* 버튼의 모양  rounded🔻🔻🔻*/
+  .rounded{
+    border-radius: 8px;
+  }
+  /* 버튼의 모양  rounded🔺🔺🔺*/
+  
+  
+  /* border색,모양 설정  🔻🔻🔻*/
+  .red-border {
+    border: 1px solid var(--red-5);
+  }
+  .orange-border {
+    border: 1px solid var(--orange-5);
+  }
+  .yellow-border {
+    border: 1px solid var(--yellow-5);
+  }
+  .green-border {
+    border: 1px solid var(--green-5);
+  }
+  .blue-border {
+    border: 1px solid var(--blue-5);
+  }
+  .navy-border {
+    border: 1px solid var(--navy-5);
+  }
+  .purple-border {
+    border: 1px solid var(--purple-5);
+  }
+  /* border색,모양 설정  🔺🔺🔺*/
+  
+  /*  🔻🔻🔻*/
+  .red-fill-background{
+    transition-property: color, background-color;
+    transition-duration: 0.5s;
+  }
+  .red-fill-background:hover{
+    color: var(--white-0);
+    background-color: var(--red-5);
+  }
+  
+  .orange-fill-background{
+    transition-property: color, background-color;
+    transition-duration: 0.5s;
+  }
+  .orange-fill-background:hover{
+    color: var(--white-0);
+    background-color: var(--orange-5);
+  }
+  
+  .yellow-fill-background{
+    transition-property: color, background-color;
+    transition-duration: 0.5s;
+  }
+  .yellow-fill-background:hover{
+    color: var(--white-0);
+    background-color: var(--yellow-5);
+  }
+  
+  .green-fill-background{
+    transition-property: color, background-color;
+    transition-duration: 0.5s;
+  }
+  .green-fill-background:hover{
+    color: var(--white-0);
+    background-color: var(--green-5);
+  }
+  
+  .blue-fill-background{
+    transition-property: color, background-color;
+    transition-duration: 0.5s;
+  }
+  .blue-fill-background:hover{
+    color: var(--white-0);
+    background-color: var(--blue-5);
+  }
+  
+  .navy-fill-background{
+    transition-property: color, background-color;
+    transition-duration: 0.5s;
+  }
+  .navy-fill-background:hover{
+    color: var(--white-0);
+    background-color: var(--navy-5);
+  }
+  
+  .purple-fill-background{
+    transition-property: color, background-color;
+    transition-duration: 0.5s;
+  }
+  .purple-fill-background:hover{
+    color: var(--white-0);
+    background-color: var(--purple-5);
+  }
+  /*  🔺🔺🔺*/
+  
+  /*  🔻🔻🔻*/
+  .red-shadow-effect {
+    transition-property: box-shadow;
+    box-shadow: 0 0 40px 40px var(--red-5) inset, 0 0 0 0 var(--red-5);
+    transition-duration: 0.15s;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  .red-shadow-effect:hover{
+    box-shadow: 0 0 10px 0 var(--red-5) inset, 0 0 10px 4px var(--red-5);
+  }
+  
+  .orange-shadow-effect {
+    transition-property: box-shadow;
+    box-shadow: 0 0 40px 40px var(--orange-5) inset, 0 0 0 0 var(--orange-5);
+    transition-duration: 0.15s;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  .orange-shadow-effect:hover{
+    box-shadow: 0 0 10px 0 var(--orange-5) inset, 0 0 10px 4px var(--orange-5);
+  }
+  .yellow-shadow-effect {
+    transition-property: box-shadow;
+    box-shadow: 0 0 40px 40px var(--yellow-5) inset, 0 0 0 0 var(--yellow-5);
+    transition-duration: 0.15s;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  .yellow-shadow-effect:hover{
+    box-shadow: 0 0 10px 0 var(--yellow-5) inset, 0 0 10px 4px var(--yellow-5);
+  }
+  .green-shadow-effect {
+    transition-property: box-shadow;
+    box-shadow: 0 0 40px 40px var(--green-5) inset, 0 0 0 0 var(--green-5);
+    transition-duration: 0.15s;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  .green-shadow-effect:hover{
+    box-shadow: 0 0 10px 0 var(--green-5) inset, 0 0 10px 4px var(--green-5);
+  }
+  .blue-shadow-effect {
+    transition-property: box-shadow;
+    box-shadow: 0 0 40px 40px var(--blue-5) inset, 0 0 0 0 var(--blue-5);
+    transition-duration: 0.15s;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  .blue-shadow-effect:hover{
+    box-shadow: 0 0 10px 0 var(--blue-5) inset, 0 0 10px 4px var(--blue-5);
+  }
+  .navy-shadow-effect {
+    transition-property: box-shadow;
+    box-shadow: 0 0 40px 40px var(--navy-5) inset, 0 0 0 0 var(--navy-5);
+    transition-duration: 0.15s;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  .navy-shadow-effect:hover{
+    box-shadow: 0 0 10px 0 var(--navy-5) inset, 0 0 10px 4px var(--navy-5);
+  }
+  .purple-shadow-effect {
+    transition-property: box-shadow;
+    box-shadow: 0 0 40px 40px var(--purple-5) inset, 0 0 0 0 var(--purple-5);
+    transition-duration: 0.15s;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  .purple-shadow-effect:hover{
+    box-shadow: 0 0 10px 0 var(--purple-5) inset, 0 0 10px 4px var(--purple-5);
+  }
+  /*  🔺🔺🔺*/
+  
+  /* 펄스 심장박동 효과 🔻🔻🔻*/
+  @keyframes pulsuate-red {
+    from {
+      box-shadow: 0 0 0 0 var(--red-5);
+    }
+  
+  }
+  @keyframes pulsuate-orange {
+    from {
+      box-shadow: 0 0 0 0 var(--orange-5);
+    }
+  }
+  @keyframes pulsuate-yellow {
+    from {
+      box-shadow: 0 0 0 0 var(--yellow-5);
+    }
+  }
+  @keyframes pulsuate-green {
+    from {
+      box-shadow: 0 0 0 0 var(--green-5);
+    }
+  }
+  @keyframes pulsuate-blue {
+    from {
+      box-shadow: 0 0 0 0 var(--blue-5);
+    }
+  }
+  @keyframes pulsuate-navy {
+    from {
+      box-shadow: 0 0 0 0 var(--navy-5);
+    }
+  }
+  @keyframes pulsuate-purple {
+    from {
+      box-shadow: 0 0 0 0 var(--purple-5);
+    }
+  }
+  
+  .red-pulse {
+    /* 기본 스타일이 여기에 추가될 수 있음 */
+  }
+  .red-pulse:hover {
+    box-shadow: 0 0 0 16px transparent;
+    animation: pulsuate-red 0.75s;
+  }
+  
+  .orange-pulse {
+    /* 기본 스타일이 여기에 추가될 수 있음 */
+  }
+  .orange-pulse:hover {
+    box-shadow: 0 0 0 16px transparent;
+    animation: pulsuate-orange 0.75s;
+  }
+  .yellow-pulse {
+    /* 기본 스타일이 여기에 추가될 수 있음 */
+  }
+  .yellow-pulse:hover {
+    box-shadow: 0 0 0 16px transparent;
+    animation: pulsuate-yellow 0.75s;
+  }
+  .green-pulse {
+    /* 기본 스타일이 여기에 추가될 수 있음 */
+  }
+  .green-pulse:hover {
+    box-shadow: 0 0 0 16px transparent;
+    animation: pulsuate-green 0.75s;
+  }
+  .blue-pulse {
+    /* 기본 스타일이 여기에 추가될 수 있음 */
+  }
+  .blue-pulse:hover {
+    box-shadow: 0 0 0 16px transparent;
+    animation: pulsuate-blue 0.75s;
+  }
+  .navy-pulse {
+    /* 기본 스타일이 여기에 추가될 수 있음 */
+  }
+  .navy-pulse:hover {
+    box-shadow: 0 0 0 16px transparent;
+    animation: pulsuate-navy 0.75s;
+  }
+  .purple-pulse {
+    /* 기본 스타일이 여기에 추가될 수 있음 */
+  }
+  .purple-pulse:hover {
+    box-shadow: 0 0 0 16px transparent;
+    animation: pulsuate-purple 0.75s;
+  }
+  /*펄스 심장박동 효과  🔺🔺🔺*/
+  
+  /* 푸딩처럼 찰랑찰랑 🔻🔻🔻*/
+  @keyframes make-pudding{
+    25% {
+      transform: scale(0.9, 1.1);
+    }
+    50% {
+      transform: scale(1.1, 0.9);
+    }
+    75% {
+      transform: scale(0.95, 1.05);
+    }
+  }
+  
+  .make-pudding {
+    /* 기본 스타일이 여기에 추가될 수 있음 */
+  }
+  .make-pudding:hover {
+    animation-name: make-pudding;
+    animation-duration: 0.4s;
+  
+  }
+  
+  /* 푸딩처럼 찰랑찰랑 🔺🔺🔺*/
+  
+  /* 버튼 배경색이 밖에서부터 안으로 채워지는 느낌 표현   🔻🔻🔻*/
+  .fill-red-to-in{
+    transition: 0.5s;
+  }
+  .fill-red-to-in:hover{
+    background: transparent;
+    box-shadow: inset 0 0 0 36px var(--red-5);
+    color: white;
+  }
+  
+  .fill-orange-to-in{
+    transition: 0.5s;
+  }
+  .fill-orange-to-in:hover{
+    background: transparent;
+    box-shadow: inset 0 0 0 36px var(--orange-5);
+    color: white;
+  }
+  
+  .fill-yellow-to-in{
+    transition: 0.5s;
+  }
+  .fill-yellow-to-in:hover{
+    background: transparent;
+    box-shadow: inset 0 0 0 36px var(--yellow-5);
+    color: white;
+  }
+  
+  .fill-green-to-in{
+    transition: 0.5s;
+  }
+  .fill-green-to-in:hover{
+    background: transparent;
+    box-shadow: inset 0 0 0 36px var(--green-5);
+    color: white;
+  }
+  
+  .fill-blue-to-in{
+    transition: 0.5s;
+  }
+  .fill-blue-to-in:hover{
+    background: transparent;
+    box-shadow: inset 0 0 0 36px var(--blue-5);
+    color: white;
+  }
+  
+  .fill-navy-to-in{
+    transition: 0.5s;
+  }
+  .fill-navy-to-in:hover{
+    background: transparent;
+    box-shadow: inset 0 0 0 36px var(--navy-5);
+    color: white;
+  }
+  
+  .fill-purple-to-in{
+    transition: 0.5s;
+  }
+  .fill-purple-to-in:hover{
+    background: transparent;
+    box-shadow: inset 0 0 0 36px var(--purple-5);
+    color: white;
+  }
+  /* 버튼 배경색이 밖에서부터 안으로 채워지는 느낌 표현   🔺🔺🔺*/
+  
+  /* 상호 작용 펄스 심장박동 효과 🔻🔻🔻*/
+  @keyframes pulsuate-red-interaction {
+    from {
+      /* box-shadow: 0 0 0 0 var(--red-5); */
+      text-shadow: 0 0 0 var(--red-5);
+    }
+  
+  }
+  @keyframes pulsuate-orange-interaction {
+    from {
+      text-shadow: 0 0 0 var(--orange-5);
+    }
+  }
+  @keyframes pulsuate-yellow-interaction {
+    from {
+      text-shadow: 0 0 0 var(--yellow-5);
+    }
+  }
+  @keyframes pulsuate-green-interaction {
+    from {
+      text-shadow: 0 0 0 var(--green-5);
+    }
+  }
+  @keyframes pulsuate-blue-interaction {
+    from {
+      text-shadow: 0 0 0 var(--blue-5);
+    }
+  }
+  @keyframes pulsuate-navy-interaction {
+    from {
+      text-shadow: 0 0 0 var(--navy-5);
+    }
+  }
+  @keyframes pulsuate-purple-interaction {
+    from {
+      text-shadow: 0 0 0 var(--purple-5);
+    }
+  }
+  
+  .red-pulse-interaction {
+    /* 기본 스타일이 여기에 추가될 수 있음 */
+  }
+  .red-pulse-interaction:hover {
+    
+    /* box-shadow: 0 0 0 16px transparent; */
+    /* offset-x | offset-y | blur-radius | color */
+    text-shadow: 0px 0px 32px transparent;
+  
+    animation: pulsuate-red-interaction 1s;
+  }
+  .red-pulse-interaction:active {
+    
+  }
+  
+  .orange-pulse-interaction {
+    /* 기본 스타일이 여기에 추가될 수 있음 */
+  }
+  .orange-pulse-interaction:hover {
+    text-shadow: 0px 0px 32px transparent;
+    animation: pulsuate-orange-interaction 1s;
+  }
+  .yellow-pulse {
+    /* 기본 스타일이 여기에 추가될 수 있음 */
+  }
+  .yellow-pulse-interaction:hover {
+    text-shadow: 0px 0px 32px transparent;
+    animation: pulsuate-yellow-interaction 1s;
+  }
+  .green-pulse {
+    /* 기본 스타일이 여기에 추가될 수 있음 */
+  }
+  .green-pulse-interaction:hover {
+    text-shadow: 0px 0px 32px transparent;
+    animation: pulsuate-green-interaction 1s;
+  }
+  .blue-pulse {
+    /* 기본 스타일이 여기에 추가될 수 있음 */
+  }
+  .blue-pulse-interaction:hover {
+    text-shadow: 0px 0px 32px transparent;
+    animation: pulsuate-blue-interaction 1s;
+  }
+  .navy-pulse {
+    /* 기본 스타일이 여기에 추가될 수 있음 */
+  }
+  .navy-pulse-interaction:hover {
+    text-shadow: 0px 0px 32px transparent;
+    animation: pulsuate-navy-interaction 1s;
+  }
+  .purple-pulse {
+    /* 기본 스타일이 여기에 추가될 수 있음 */
+  }
+  .purple-pulse-interaction:hover {
+    text-shadow: 0px 0px 32px transparent;
+    animation: pulsuate-purple-interaction 1s;
+  }
+  /* 상호 작용 펄스 심장박동 효과  🔺🔺🔺*/
+  
+  /*  🔻🔻🔻*/
+  
+  /*  🔺🔺🔺*/
+
+  /* 🔥🔥🔥 사용자에게 배포할 파일입니다. UI관련 모든 수정을 여기에 반영하세요 🔥🔥🔥*/
+  /* 🔥🔥🔥디자인 요소 추가 및 변경시 변경 요소 반영 할것.🔥🔥🔥*/
