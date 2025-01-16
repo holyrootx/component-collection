@@ -355,10 +355,38 @@ code{
 
 /*  main Content 관련 클래스 선택자 스타일🔺🔺🔺*/
 
+/* 인풋 요소 설정 관련 🔻🔻🔻*/
+input:focus{
+  outline: none;
+}
+input{
+  border: none;
+}
+.input-wrapper{
+  margin: 4px 0px;
+  
+}
+.input-size{
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: var(--white-3);
+}
+.input-size:hover{
 
-/*  🔻🔻🔻*/
+}
+.input-size:focus{
+  outline: 2px solid var(--black-9);
+}
+.input-background-black{
+  background-color: var(--black-0);
+  color: var(--gray-5);
+}
 
-/*  🔺🔺🔺*/
+
+
+/* 인풋 요소 설정 관련 🔺🔺🔺*/
+
 
 @media screen and (max-width: 765px){
   .nav-bar{
@@ -416,3 +444,6 @@ code{
     font-size: 8px;
   }
 }
+
+/*  🔻🔻🔻*/
+/*  🔺🔺🔺*/
