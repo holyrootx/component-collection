@@ -351,6 +351,7 @@ code{
   margin-top: 16px;
   border-radius: 16px;
   background-color: var(--black-4);
+  position: relative;
 }
 
 /*  main Content 관련 클래스 선택자 스타일🔺🔺🔺*/
@@ -365,24 +366,46 @@ input{
 .input-wrapper{
   margin: 4px 0px;
   
+  
 }
 .input-size{
-  padding: 12px 20px;
+  padding: 12px 0px;
   border-radius: 8px;
   font-size: 16px;
-  background-color: var(--white-3);
+  padding-left: 24px;
 }
-.input-size:hover{
 
-}
 .input-size:focus{
   outline: 2px solid var(--black-9);
 }
-.input-background-black{
-  background-color: var(--black-0);
+
+.input-background-white {
+  background-color: var(--white-3);
+  color:var(--black-3);
+}
+.input-background-white::placeholder {
   color: var(--gray-5);
 }
 
+.input-background-black{
+  background-color: var(--black-0);
+  color: var(--white-0);
+}
+.input-background-black::placeholder{
+  color: var(--white-0);
+}
+
+.user-icon {
+  position: absolute;
+  padding: 12px 0px 12px 5px;
+  margin: 0px;
+}
+.white-icon{
+  color: var(--gray-9);
+}
+.dark-icon{
+  color: var(--black-9);
+}
 
 
 /* 인풋 요소 설정 관련 🔺🔺🔺*/
